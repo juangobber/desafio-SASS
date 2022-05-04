@@ -9,19 +9,23 @@ footer {
 .bi-facebook, .bi-instagram, .bi-whatsapp {
   color: whitesmoke; }
 
+.transition, .nav-link :hover, .btn-secondary :hover, .card :hover {
+  transition: all 0.3s; }
+
 .navbar-brand, h1 {
   font-family: 'Orelega One', cursive; }
 
 .alto-8 {
-  height: 8rem; }
+  height: 8rem;
+  width: auto; }
 
 .logo {
+  height: auto;
   width: 12rem; }
 
-.nav-link:hover {
+.nav-link :hover {
   font-weight: bolder;
-  color: darkslategray;
-  transition: all 0.2s; }
+  color: darkslategray; }
 
 .activo {
   font-weight: bolder;
@@ -33,16 +37,11 @@ footer {
 .btn-secondary {
   background-color: #619aad;
   border: 0px; }
+  .btn-secondary :hover {
+    box-shadow: 2rem #8b8b8b; }
 
-.btn-secondary:hover {
-  transition: all 0.3s;
-  box-shadow: 2rem #8b8b8b; }
-
-.card:hover {
-  /* offset-x | offset-y | blur-radius | spread-radius | color */
-  transition: all 0.3s;
-  box-shadow: 0px 0px 3rem 0.5rem #c7c7c7;
-  width: 105%; }
+.card :hover {
+  box-shadow: 0px 0px 3rem 0.5rem #c7c7c7; }
 
 .card-img-top {
   object-fit: contain;
